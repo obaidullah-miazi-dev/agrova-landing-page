@@ -12,7 +12,7 @@ const Navbar = () => {
     ]
     return (
        <Container>
-        <nav className='bg-black text-white font-semibold flex justify-between items-center px-4 rounded-full py-4 fixed top-5 w-11/12'>
+        <nav className='bg-black text-white font-semibold flex justify-between items-center px-4 rounded-full py-4 fixed top-5 w-11/12 z-50'>
             <div className='flex items-center gap-1'>
                 <AliwangwangFilled className='text-4xl'/>
                 <span className='text-3xl'>Agrova</span>
