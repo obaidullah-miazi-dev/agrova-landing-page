@@ -11,8 +11,8 @@ const Navbar = () => {
         {name:"How It Works"},
     ]
     return (
-       <Container className={`py-5`}>
-        <nav className='bg-black text-white font-semibold flex justify-between items-center px-4 rounded-full py-4'>
+       <Container>
+        <nav className='bg-black text-white font-semibold flex justify-between items-center px-4 rounded-full py-4 fixed top-5 w-11/12'>
             <div className='flex items-center gap-1'>
                 <AliwangwangFilled className='text-4xl'/>
                 <span className='text-3xl'>Agrova</span>
