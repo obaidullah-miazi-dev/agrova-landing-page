@@ -8,7 +8,7 @@ import aboutimg2 from '../../assets/about-img2.jpeg'
 
 const About = () => {
     const cardData = [
-        {title:"Acres Farmed",count:"10K+",description:"Supporting efficient tarming at scale"},
+        {title:"Acres Farmed",count:"20K+",description:"Supporting efficient tarming at scale"},
         {title:"Yield Improvement",count:"30%",description:"Growing more with smartor farming"},
         {title:"Farmers Trust Us",count:"50K+",description:"Proven results formers trust"},
     ]
