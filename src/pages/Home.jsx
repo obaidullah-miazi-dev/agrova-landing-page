@@ -4,6 +4,7 @@ import BrandMarquee from '../components/home/BrandMarquee';
 import About from '../components/home/About';
 import Solutions from '../components/home/Solutions';
 import WhyChooseUs from '../components/home/WhyChooseUs';
+import Steps from '../components/home/Steps';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
           <About />
           <Solutions />
           <WhyChooseUs />
+          <Steps />
         </>
     );
 };
