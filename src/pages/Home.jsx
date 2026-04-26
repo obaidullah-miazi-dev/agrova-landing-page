@@ -3,6 +3,7 @@ import Banner from '../components/home/Banner';
 import BrandMarquee from '../components/home/BrandMarquee';
 import About from '../components/home/About';
 import Solutions from '../components/home/Solutions';
+import WhyChooseUs from '../components/home/WhyChooseUs';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
           <BrandMarquee />
           <About />
           <Solutions />
+          <WhyChooseUs />
         </>
     );
 };
