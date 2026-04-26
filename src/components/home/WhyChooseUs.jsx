@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        className="relative h-[500px] lg:h-[700px] rounded-[3rem] overflow-hidden group shadow-2xl"
+                        className="relative h-[500px] lg:h-full rounded-[3rem] overflow-hidden group shadow-2xl"
                     >
                         <img 
                             src={sustainableImg} 
@@ -100,7 +100,7 @@ const WhyChooseUs = () => {
                             </div>
                             <div className="h-full rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100">
                                 <img src={farmerImg} alt="Farmer Approach" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                                <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
+                                
                             </div>
                         </motion.div>
                         
@@ -119,7 +119,7 @@ const WhyChooseUs = () => {
                             </div>
                             <div className="h-full rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100">
                                 <img src={techImg} alt="Smart Technology" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                                <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
+                                
                             </div>
                         </motion.div>
                         
@@ -133,7 +133,7 @@ const WhyChooseUs = () => {
                         >
                             <div className="h-full rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100">
                                 <img src={yieldImg} alt="More Yield" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
-                                <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
+                               
                             </div>
                              <div className="absolute bottom-5 left-1/2 -translate-x-1/2 z-10 w-[85%]">
                                 <div className="bg-white/95 backdrop-blur-md rounded-2xl py-3.5 px-4 shadow-xl border border-gray-100/50 text-center">

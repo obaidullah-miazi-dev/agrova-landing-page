@@ -36,10 +36,10 @@ const FAQ = () => {
     return (
         <section className="max-w-11/12 mx-auto py-24">
             <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight max-w-3xl mx-auto">
+                <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight max-w-4xl mx-auto">
                     Clear reliable information to help you start farming with confidence.
                 </h2>
-                <p className="text-gray-500 text-lg max-w-2xl mx-auto">
+                <p className="text-gray-500 text-lg  mx-auto">
                     Find clear answers to common questions and learn how our agriculture solutions support your farming journey.
                 </p>
             </div>
@@ -56,7 +56,7 @@ const FAQ = () => {
                         >
                             <button
                                 onClick={() => setOpenId(isOpen ? null : faq.id)}
-                                className="w-full flex items-center justify-between p-8 text-left focus:outline-none"
+                                className="w-full flex items-center justify-between p-6 text-left focus:outline-none"
                             >
                                 <span className="text-xl md:text-2xl font-bold text-gray-900">
                                     {faq.question}
