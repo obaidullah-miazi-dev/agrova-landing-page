@@ -97,7 +97,7 @@ const testimonials = [
 ];
 
 const TestimonialCard = ({ item }) => (
-    <div className="min-w-[400px] bg-[#f8f9fa] rounded-[2.5rem] p-8 mx-4 flex flex-col justify-between h-[280px]">
+    <div className="w-[350px] bg-[#f8f9fa] rounded-[2.5rem] p-8 mx-4 flex flex-col justify-between h-[300px]">
         <div className="flex justify-between items-start">
             <div className="flex gap-4 items-center">
                 <img src={item.avatar} alt={item.name} className="w-14 h-14 rounded-full object-cover" />
@@ -109,7 +109,7 @@ const TestimonialCard = ({ item }) => (
             <Quote className="w-8 h-8 text-gray-200 fill-gray-200" />
         </div>
         
-        <p className="text-gray-600 font-medium leading-relaxed mt-4">
+        <p className="text-gray-600 font-medium leading-relaxed mt-4 whitespace-normal">
             {item.content}
         </p>
         
